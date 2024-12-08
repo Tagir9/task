@@ -1,6 +1,6 @@
 # "Функции в Python.Функция с параметром"
 def get_matrix(n,m,value):
-    matrix= []
+    matrix = []
     for i in range(n):
         line = []
         for j in range(m):
