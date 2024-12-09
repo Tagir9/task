@@ -16,7 +16,6 @@ def  is_contains(string, list_to_search):
     count_calls()
     string = string.lower()
     return string in (item.lower() for item in list_to_search)
-    #return string in list_to_search
 
 print(string_info ('Capybara'))
 print(string_info('Armageddon'))
